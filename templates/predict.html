@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title> 
+    <link rel="stylesheet" href='/static/predict.css' />
+    <link rel="stylesheet" href="/static/Home.css", media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <!-- <div class="heading">
+        <h1 id="head">Diabetes Prediction Form</h1>
+    </div> -->
+    <header>
+        <div class="container-1">
+            <div class="logo">
+                <a href="{{url_for('home')}}"><img src="/static/images/DIABETICS_P.png" style="align-items: center; size: 50px;"></a>
+            </div>
+        </div>
+    </header>
+    
+    <form action="{{ url_for('predict') }}", method="post">
+        <div id = "question">
+            <label for="pregnancies">Pregnancies</label><br><br>
+            <input type="text" name="pregnancies" placeholder="Enter patient's pregnancies times" required="required" /><br><br>
+
+            <label for="plasma_glucose_data">Plasma Glucose Data</label><br><br>
+            <input type="text" name="plasma_glucose_data" placeholder="Enter patient's plasma glucose data" required="required" /><br><br>
+
+            <label for="diastolic_blood_pressure_data">Diastolic Blood Pressure</label><br><br>
+            <input type="text" name="diastolic_blood_pressure_data" placeholder="Enter patient's diastolic blood pressure data" required="required" /><br><br>
+
+            <label for="triceps_thickness_data">Triceps Thickness</label><br><br>
+            <input type="text" name="triceps_thickness_data" placeholder="Enter patient's triceps thickness data" required="required" /><br><br>
+
+            <label for="seruminsulin_data">Seruminsulin Data</label><br><br>
+            <input type="text" name="seruminsulin_data" placeholder="Enter patient's seruminsulin data" required="required" /><br><br>
+
+            <label for="bmi_data">BMI</label><br><br>
+            <input type="text" name="bmi_data" placeholder="Enter patient's BMI data" required="required" /><br><br>
+
+            <label for="diabetes_pedigree_data">Diabetes Pedigree Data</label><br><br>
+            <input type="text" name="diabetes_pedigree_data" placeholder="Enter patient's diabetes pedigree data" required="required" /><br><br>
+
+            <label for="age_data">Age</label><br><br>
+            <input type="text" name="age_data" placeholder="Enter patient's age" required="required" /><br><br>
+        </div>
+        
+        <div id="submit_button">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+
+    </form>
+
+    <div class="final_result">
+
+        {% if prediction_result == 1 %}
+            <h2 class="risk_result" style="color: red">HIGH RISK</h2>
+            <p class='details'>The percentage of <strong >HAVE DIABETES DISEASE </strong> is 96.28 %.</p>
+
+        {% elif prediction_result == 0 %}
+            <h2 class="risk_result" style="color: rgb(114, 168, 33)">LOW RISK</h2>
+            <p class='details'>The percentage of <strong> HAVE DIABETES DISEASE </strong> is 96.28 %</p>
+
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

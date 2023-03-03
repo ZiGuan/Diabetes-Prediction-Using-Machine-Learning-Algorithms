@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/Home.css", media="screen">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+</head>
+<body>
+    <header>
+        <div class="container-1">
+            <div class="logo">
+                <a href="{{url_for('home')}}"><img src="/static/images/DIABETICS_P.png"></a>
+            </div>
+            <nav class="menu">
+                <div class="menu-container">
+                    <ul class="list-container">
+                        <li class="u-nav-item"><a href="#type-1" style="padding: 10px 30px; font-size: 30px; font-weight: 500"><span class="material-symbols-outlined">looks_one</span>Type-1 Diabetes</a></li>
+                        <li class="u-nav-item"><a href="#type-2" style="padding: 10px 30px; font-size: 30px; font-weight: 500"><span class="material-symbols-outlined">looks_two</span>Type-2 Diabetes</a></li>
+                        <li class="u-nav-item"><a href="#gestational" style="padding: 10px 30px; font-size: 30px; font-weight: 500"><span class="material-symbols-outlined">genetics</span>Gestational Diabetes</a></li>
+                    </ul>
+                </div> 
+            </nav>
+        </div>
+    </header>
+    <div class="bg-block">
+    <div class="main-info">
+            <h1 class="main-header">Diabetes Mellitus</h1>
+            <p class="text-box">Diabetes Mellitus, disorder of carbohydrate metabolism characterized by impaired ability of 
+                                                                the body to produce or respond to insulin and thereby maintain proper levels of sugar (glucose) 
+                                                                in the blood. Diabetes.P is a diabetes prediction platform that helps users predict diabates probability through some questions.</p><br>
+            <a href="{{url_for('form_page')}}"class="u-btn u-button-style u-custom u-white u-btn-1">Take the risk test</a>
+    </div>
+    </div>
+
+    <div class="type-1">
+        <h2 class="heading"><strong>Type-1</strong></h2>
+        <h4 class="subheading">Insulin-Dependent Diabetes Mellitus - IDDM</h4>
+        <!-- <h2 class="u-custom-font u-font-georgia u-text u-text-palette-2-base u-text-3">Become one with the mountain</h2> -->
+        <p class="text-1">Type 1 of diabetes that indicates human’s body unable to generate sufficient insulin and required to rely on insulin injection. 
+            Globally, it was estimated that type 1 diabetes accounted for roughly 2% of all instances of diabetes worldwide, ranging from less 
+            than 1% in some Pacific Island nations and more than 15% in Northern European populations.</p>
+        
+        <p class="text-1">Those with this type of diabetes may be suffering from an autoimmune reaction that inhibits your pancreas from making insulin. 
+            Having type 1 diabetes can happen at any point of your life, but it is more common in children and adolescents. Your doctor may prescribe 
+            you to undergo insulin therapy to help address your condition. This means that you may need to take insulin for the rest of your life 
+            to help maintain healthy levels of glucose.</p>
+    </div>
+
+    <div class="image">
+        <img src="/static/images/type-1-diabetes.jpg" alt="" class="diabetes_image" imgwidth="924" imgheight="718">
+    </div>
+
+    <div class="type-2">
+        <h2 class="heading"><strong>Type-2</strong></h2>
+        <h4 class="subheading">Non-Insulin-Dependent Diabetes Mellitus - NIDDM</h4>
+        <!-- <h2 class="u-custom-font u-font-georgia u-text u-text-palette-2-base u-text-3">Become one with the mountain</h2> -->
+        <p class="text-1">Type 2 of diabetes is the most prevalent kind of diabetes, which is characterised by hyperglycemia, insulin resistance,
+            and a relative lack of insulin. Type 2 diabetes was caused by the convergence of genetic, environmental, 
+            and behavioural risk factors. People with type 2 diabetes are more sensitive to several brief and long problems,
+            which higher probability in early mortality. This kind of diabetes is usually found in middle-aged and older adults.</p>
+        
+        <p class="text-1">The exact reason why your body suddenly starts becoming insulin-resistant remains unknown, but family history of diabetes and an unhealthy 
+            lifestyle can greatly increase your risk levels. It is generally recommended that you start living a healthier lifestyle when you are at 
+            risk or are diagnosed with type 2 diabetes to help regulate your blood sugar. If a balanced diet and an active lifestyle doesn’t work out for you,
+            your doctor will design an individualized treatment plan is designed to help manage your condition.</p>
+    </div>
+
+    <div class="image">
+        <img src="/static/images/type-2-diabetes-mellitus.png" alt="" class="diabetes_image" imgwidth="924" imgheight="718">
+    </div>
+
+    <div class="gestational">
+        <h2 class="heading"><strong>Type-3</strong></h2>
+        <h4 class="subheading">Gestational Diabetes Mellitus - GDM</h4>
+        <!-- <h2 class="u-custom-font u-font-georgia u-text u-text-palette-2-base u-text-3">Become one with the mountain</h2> -->
+        <p class="text-1">Gestational diabetes comes from hormonal changes, and the way our bodies convert food into energy. A hormone called insulin breaks down the 
+            glucose (sugar) from food and delivers it to our cells. Insulin keeps the level of glucose in our blood at a healthy level. But if insulin doesn’t 
+            work right or we don’t have enough of it, sugar builds up in the blood and leads to diabetes. Healthcare provider tests for gestational diabetes around 
+            weeks 24 to 28 of your pregnancy. At this stage, hormones start getting produced by the placenta. This organ forms in the uterus and supplies the baby 
+            with oxygen and nutrients. The hormones it makes can interfere with insulin.</p>
+        
+        <p class="text-1">Healthcare provider will test your blood sugar during pregnancy. The test may have two parts:<br><br>
+            <strong>Glucose challenge test: </strong>You drink a sweet liquid. After about an hour, you’ll have a blood 
+                  test to check your blood sugar level. If your blood sugar is high, your healthcare provider will do a glucose tolerance test.<br><br>
+            <strong>Glucose tolerance test: </strong> An oral glucose tolerance test is only done if your challenge test results are unusual. You fast (don’t eat for eight hours) before the tolerance test. 
+                  Your healthcare provider draws your blood before and after you drink a sweet liquid. The tolerance test can confirm a diagnosis of gestational diabetes.</p>
+    </div>
+
+    <div class="image">
+        <img src="/static/images/gestational-diabetes.jpg" alt="" class="diabetes_image" imgwidth="924" imgheight="718">
+    </div>
+
+    <div class="title">
+        <h2 class="heading">Tip of the Days</h2>
+        
+        <div class="tip_container">
+            <img src="/static/images/nutrtion.jpg" alt="" class="tip_image">
+            <p class="tips-text"><strong>Weight Loss Tips:</strong><br><br>If you're overweight, reducing a few pounds through good food and exercise will make you feel better 
+                                and give you more energy. And managing your diabetes will become easier. The way you say to yourself
+                                can have a tremendous impact.</p>
+        </div>
+
+
+        <div class="tip_container">
+            <p class="tips-text-2"><strong>Nutrition Tips:</strong><br><br>"Maintain a healthy and balanced diet by eating a variety of whole foods from all food groups. 
+                                    This can provide your body with the essential nutrients it needs for optimal health.</p>
+            <img src="/static/images/weight_loss.jpg" alt="" class="tip2_image">
+      
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>

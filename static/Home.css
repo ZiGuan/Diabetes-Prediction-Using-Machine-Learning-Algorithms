@@ -1,0 +1,221 @@
+/* Global Styles */
+
+* {
+  max-width: 1700;
+  height: auto;
+  margin: 0px auto;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  border-left: 1px solid rgb(219, 219, 219);
+  border-right: 1px solid rgb(219, 219, 219);
+  box-shadow: 0 0 10px #888;
+  padding-left :150px;
+  padding-right :150px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 44px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #ffffff;
+  margin: -10px;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  width: 1700px;
+  margin-left: -151.5px;
+  /* padding: 20px 0; */
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 280px;
+  width: 280px;
+  margin-left: 10px;
+}
+
+.menu-container {
+  display: flex;
+  margin-right: -80px;
+}
+
+.list-container {
+  display: flex;
+  list-style: none;
+  margin-top: 100px;
+}
+
+
+
+.u-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.u-nav-item a {
+  color: #333;
+  font-size: 40px;
+  padding: 10px 20px;
+}
+
+.u-nav-item a:hover {
+  color: #007bff;
+}
+
+/* Main Content Styles */
+
+.main-info {
+  /* background-image: url("images/diabetes_background.jpg");
+  background-position: 0%;
+  width: fit-content;
+  opacity: 0.95; */
+  
+  color: #ffffff;
+  padding: 5% 55% 5% 10%;
+  text-align: justify;
+}
+
+.bg-block {
+  background-image: url("images/diabetes_background.jpg");
+  background-position: 50%;
+  width: 1700px;
+  opacity: 0.90;
+  margin-left: -151.5px;
+}
+
+
+.text-box {
+  padding-top: 20px;
+
+}
+
+.main-header {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.u-text-2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.u-btn-1 {
+  font-size: 22px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #0c0c0c;
+}
+
+.u-btn-1:hover {
+  background-color: #061f44;
+  color: #fff;
+  cursor: pointer;
+}
+
+.type-1, .type-2, .gestational, .title {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #478ac9;
+}
+
+.subheading {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #478ac9;
+}
+
+.text-1 {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.image {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.diabetes_image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.material-symbols-outlined {
+  height: 40px;
+  width: 40px;
+  padding-right: 8px;
+  padding-top: -10px;
+  display: inline-block;
+}
+
+.tip{
+  margin-bottom: 50px;
+  vertical-align: middle;
+}
+
+.tip_image {
+  width: 600px;
+  height: 450px;
+  padding-right: 20px;
+  
+}
+
+.tips-text {
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.tip2_image {
+  width: 550px;
+  height: 550px;
+}
+
+.tips-text-2{
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding-top: 120px;
+  padding-right: 60px;
+  text-align: justify;
+}
+
+.tip_container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-flex;
+}
+
+
+
+
+
