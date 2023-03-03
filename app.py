@@ -13,7 +13,7 @@ model = pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
 def home():
-    return render_template('Home.html')
+    return render_template('index.html')
 
 @app.route("/formtest")
 def form_page():
