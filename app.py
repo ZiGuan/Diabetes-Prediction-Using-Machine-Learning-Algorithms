@@ -26,8 +26,10 @@ def predict():
     test_data = np.array(features)
     data = test_data.reshape(1,-1)
     prediction = model.predict(data)
+    print(prediction)
         
     return render_template('predict.html', prediction_result=prediction)
 
 if __name__ == '__main__':
     app.run()
+
