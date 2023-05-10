@@ -2,7 +2,7 @@
 
 ## Methodology
 
-### Overview procedure from data collection to model deployment
+### Overview Procedure from Data Collection to Model DDeployment
 
 ![flowchart](/images/overview_procedure)
 
