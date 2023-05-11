@@ -3,8 +3,8 @@
 ## Results
 
 ### Model Accuracy
-
-|               | After Feature Selection | After Hyperparameter Tuning | Final Accuracy
+| Validation Set                                                        | Test Set |
+|               | After Feature Selection | After Hyperparameter Tuning | Final Accuracy 
 |---------------------| ----------------------- | -------------------------- | --------- |
 | Logistic Regression | 79.60 %  | 79.60 % |  78.04 %
 | K-Nearest Neighbors| 90.80 % | 91.33 % | 88.76 %
