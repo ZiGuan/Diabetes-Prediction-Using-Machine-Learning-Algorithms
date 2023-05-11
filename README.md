@@ -4,15 +4,15 @@
 
 ### Model Accuracy
 
-|               | After Feature Selection | After Hyperparameter Tuning |
-|---------------------| ----------------------- | -------------------------- |
-| Logistic Regression | 79.60 %  | 79.60 % |
-| K-Nearest Neighbors| 90.80 % | 91.33 % |
-| Decision Tree |  89.60 % | 91.60 %
-| Support Vector Machine | 83.20 % | 85.97 % |
-| Random Forest | 94.13 % | 94.40 % |
-| XGBoost | 95.87 % | 96.40 % |
-| Light-GBM | 94.93 % | 95.60 % |
+|               | After Feature Selection | After Hyperparameter Tuning | Final Accuracy
+|---------------------| ----------------------- | -------------------------- | --------- |
+| Logistic Regression | 79.60 %  | 79.60 % |  78.04 %
+| K-Nearest Neighbors| 90.80 % | 91.33 % | 88.76 %
+| Decision Tree |  89.60 % | 91.60 % | 90.04 %
+| Support Vector Machine | 83.20 % | 85.97 % | 91.24 %
+| Random Forest | 94.13 % | 94.40 % | 94.20 %
+| XGBoost | 95.87 % | 96.40 % | 96.52 %
+| Light-GBM | 94.93 % | 95.60 % | 96.64 %
 
 ### Precision-Recall Curve
 ![PR Curve](/images/pr_curve.png)
