@@ -74,6 +74,7 @@ Feature Selection with SFS: </br>
 
 Hyperparameters tuning in Logistic Regression with Grid Search:
 | Hyperparameter | Values |
+| -------------  | ------ |
 |    max_iter    | 10000  |
 |       C        |  0.059 |
 |    penalty     |   l2   |
