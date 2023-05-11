@@ -10,7 +10,7 @@
 
 Data visualisation is a useful tool that enables people to grasp and comprehend complex data more easily. It entails presenting data in a graphical or visual style, which can aid in identifying patterns, trends, and relationships that may not be obvious when looking at raw data.
 
-Skewness of Attribute Distribution: </br>
+`Skewness of Attribute Distribution:`</br>
 
 ![Attribute Distribution](/images/attribute_distribution.png)
 <figcaption>Skewness of Attribute Distribution</figcaption>
