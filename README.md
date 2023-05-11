@@ -91,12 +91,69 @@ Hyperparameters tuning in K Nearest Neighbors with graph method:
 #### Decision Tree 
 
 Feature Selection with SFS: </br>
-![Decision Tree SFS](/images/decision_tree_sfs.png.png)
+![Decision Tree SFS](/images/decision_tree_sfs.png)
 
 Hyperparameters tuning in Decision Tree with Grid Search:
 | Hyperparameter | Values |
 | -------------  | ------ |
 |    max_depth   | 10  |
 | max_leaf_nodes | 40  |
+
+#### Support Vector Machine
+
+Feature Selection with SFS: </br>
+![Support Vector Machine SFS](/images/svm_sfs.png)
+
+Hyperparameters tuning in Support Vector Machine with Random Search:
+| Hyperparameter | Values |
+| -------------  | ------ |
+|    max_depth   | 40  |
+| max_features | auto  |
+|    n_estimators   | 100  |
+| min_samples_leaf | 1  |
+| min_samples_split | 1  |
+
+#### Random Forests 
+
+Feature Selection with SFS: </br>
+![Random Forest SFS](/images/rf_sfs.png)
+
+Hyperparameters tuning in Random Forests with Grid Search:
+| Hyperparameter | Values |
+| -------------  | ------ |
+|    gamma    | 0.0001  |
+|       C        |  1000 |
+|    kernel     |   rbf   |
+|    probability      | True  |
+
+#### XGBoost
+
+Feature Selection with SFS: </br>
+![XGBoost SFS](/images/xgboost_sfs.png)
+
+Hyperparameters tuning in XGBoost with Random Search:
+| Hyperparameter | Values |
+| -------------  | ------ |
+|    max_depth   | 40  |
+| subsample | 0.7  |
+|    min_child_weight   | 1  |
+| learning_rate | 0.2  |
+| gamma | 0.2  |
+| colsample_bytree | 0.2  |
+
+#### Light-GBM 
+
+Feature Selection with SFS: </br>
+![Light-GBM SFS](/images/lgbm_sfs.png)
+
+Hyperparameters tuning in Light-GBM with Random Search:
+| Hyperparameter | Values |
+| -------------  | ------ |
+|    max_depth   | 15  |
+| num_leaves | 30  |
+|    n_estimators   | 100  |
+| subsample | 0.8  |
+| colsample_bytree | 0.1  |
+
 
 
