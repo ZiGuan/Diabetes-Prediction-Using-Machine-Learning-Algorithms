@@ -2,10 +2,10 @@
 
 ## Results
 
-### Model Acuracy
+### Model Accuracy
 
 |               | After Feature Selection | After Hyperparameter Tuning |
-|---------------| ----------------------- | -------------------------- |
+|---------------------| ----------------------- | -------------------------- |
 | Logistic Regression | 79.60 %  | 79.60 % |
 | K-Nearest Neighbors| 90.80 % | 91.33 % |
 | Decision Tree |  89.60 % | 91.60 %
