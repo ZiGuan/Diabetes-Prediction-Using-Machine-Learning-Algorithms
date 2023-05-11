@@ -16,7 +16,7 @@ Skewness of Attribute Distribution
 
 Histogram for each attribute in dataset
 
-![Attributes Histogram](/images/attributes_histogram)
+![Attributes Histogram](/images/attributes_histogram.png)
 
 Bar graph for distribution of diabetic
 
