@@ -57,7 +57,7 @@ StandardScaler is a preprocessing tool for standardising the features in a datas
 
 ![StandardScaler Data](/images/standard_scaler.png)
 
-### MODEL TRAINING WITH WRAPPER METHOD AND HYPERPARAMETER TUNING
+### Model Traning With Wrapper Method and Hyperparameters Tuning
 
 `Wrapper method` is one of the feature selection techniques that is a strategy for selecting the most important features to include in a model. This strategy entails evaluating several features combinations and selecting the one that results in the best model performance. 
 
@@ -79,4 +79,24 @@ Hyperparameters tuning in Logistic Regression with Grid Search:
 |       C        |  0.059 |
 |    penalty     |   l2   |
 |    solver      | lbfgs  |
+
+#### K-Nearest Neighbors
+
+Feature Selection with SFS: </br>
+![K Nearest Neighbors SFS](/images/knn_sfs.png)
+
+Hyperparameters tuning in K Nearest Neighbors with graph method:
+![K Nearest Neighbors SFS](/images/knn_hp.png)
+
+#### Decision Tree 
+
+Feature Selection with SFS: </br>
+![Decision Tree SFS](/images/decision_tree_sfs.png.png)
+
+Hyperparameters tuning in Decision Tree with Grid Search:
+| Hyperparameter | Values |
+| -------------  | ------ |
+|    max_depth   | 10  |
+| max_leaf_nodes | 40  |
+
 
