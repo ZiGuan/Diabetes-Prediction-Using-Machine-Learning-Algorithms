@@ -1,7 +1,5 @@
 # Diabetes-Prediction-Using-Machine-Learning-Algorithms
 
-## Results
-
 ### Model Accuracy
 
 |               | After Feature Selection | After Hyperparameter Tuning  | Final Accuracy (Test Set)
