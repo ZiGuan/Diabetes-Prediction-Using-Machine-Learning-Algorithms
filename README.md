@@ -167,11 +167,11 @@ Hyperparameters tuning in Light-GBM with Random Search:
 
 |Performance Measures| Precision | Recall | F1-Score | Support
 |---------------| ------- | ------ | ------- | -------
-|0| 0.8066	| 0.8809	| 0.8421	| 1662
+|0              | 0.8066	| 0.8809	| 0.8421	| 1662
 |1| 0.7109	| 0.5811	| 0.6395	| 838
 |Accuracy| 0.7804	| 0.7804	| 0.7804	| 0.7804
 |Macro Avg| 0.7588	| 0.7310	| 0.7408	| 2500
-|Weighted Avg| 0.7745	| 0.7804	| 0.7742	 2500
+|Weighted Avg| 0.7745	| 0.7804	| 0.7742	| 2500
 
 
 
