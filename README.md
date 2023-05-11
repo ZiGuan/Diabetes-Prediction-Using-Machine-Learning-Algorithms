@@ -20,7 +20,7 @@
 ### Confusion Matrix & Classification Report
 
 #### Logistics Regression                                               
-|               | Predicted Negative | Predicted Positive |
+|               | Predicted Negative | Predicted Positive |  
 |---------------| ------- | ------ |
 |Actual Negative| 1464 | 198 |
 |Actual Positive| 351 | 487 |
@@ -119,9 +119,7 @@
 |Weighted Avg| 0.9663	| 0.9664	| 0.9663	| 2500
 
 ### Model Deployment
-![](/images/deployment_highrisk.png)
-
-![](/images/deployment_lowrisk.png)
+![](/images/deployment_highrisk.png)           ![](/images/deployment_lowrisk.png)
 
 ## Methodology
 
