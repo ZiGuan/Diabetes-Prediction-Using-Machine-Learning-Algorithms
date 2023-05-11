@@ -157,42 +157,60 @@ Hyperparameters tuning in Light-GBM with Random Search:
 
 ## Results
 
-### Confusion Matrix 
+### Confusion Matrix & Classification Report
 
 #### Logistics Regression                                               
 |               | Predicted Negative | Predicted Positive |
-|---------------| -------------  | ------ |
+|---------------| ------- | ------ |
 |Actual Negative| 1464 | 198 |
 |Actual Positive| 351 | 487 |
+
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0| 0.8066	| 0.8809	| 0.8421	| 1662
+|1| 0.7109	| 0.5811	| 0.6395	| 838
+|Accuracy| 0.7804	| 0.7804	| 0.7804	| 0.7804
+|Macro Avg| 0.7588	| 0.7310	| 0.7408	| 2500
+|Weighted Avg| 0.7745	| 0.7804	| 0.7742	 2500
+
+
 
 #### K-Nearest Neighbors 
 |               | Predicted Negative | Predicted Positive |
-|---------------| -------------  | ------ |
+|---------------| -------  | ------ |
 |Actual Negative| 1578 | 84 |
 |Actual Positive| 164 | 674 |
 
-#### Logistics Regression 
+#### Decision Tree
 |               | Predicted Negative | Predicted Positive |
-|---------------| -------------  | ------ |
-|Actual Negative| 1464 | 198 |
-|Actual Positive| 351 | 487 |
+|---------------| ------  | ------ |
+|Actual Negative| 1572 | 90 |
+|Actual Positive| 129 | 709 |
 
-#### Logistics Regression 
+#### Support Vector Machine
 |               | Predicted Negative | Predicted Positive |
-|---------------| -------------  | ------ |
-|Actual Negative| 1464 | 198 |
-|Actual Positive| 351 | 487 |
+|---------------| ------ | ------ |
+|Actual Negative| 1546 | 116 |
+|Actual Positive| 165 | 673 |
 
-#### Logistics Regression 
+#### Random Forest
 |               | Predicted Negative | Predicted Positive |
 |---------------| -------------  | ------ |
-|Actual Negative| 1464 | 198 |
-|Actual Positive| 351 | 487 |
+|Actual Negative| 1547 | 56 |
+|Actual Positive| 107 | 790 |
 
-#### Logistics Regression 
+#### XGBoost
 |               | Predicted Negative | Predicted Positive |
 |---------------| -------------  | ------ |
-|Actual Negative| 1464 | 198 |
-|Actual Positive| 351 | 487 |
+|Actual Negative| 1622 | 40 |
+|Actual Positive| 47 | 791 |
+
+#### Light-GBM
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1629 | 33 |
+|Actual Positive| 51 | 787 |
+
+Classification Report
 
 
