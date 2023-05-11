@@ -155,5 +155,12 @@ Hyperparameters tuning in Light-GBM with Random Search:
 | subsample | 0.8  |
 | colsample_bytree | 0.1  |
 
+## Results
+
+Confusion Matrix of Logistics Regression 
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1464 | 198 |
+|Actual Positive| 351 | 487 |
 
 
