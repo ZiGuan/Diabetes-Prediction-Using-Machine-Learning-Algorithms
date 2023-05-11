@@ -4,7 +4,7 @@
 
 ### Overview Procedure from Data Collection to Model Deployment
 
-![flowchart](/images/overview_procedure.png "Overview Procedure from Data Collection to Model Deployment")
+![flowchart](/images/overview_procedure.png)
 
 ### Data Visualization
 
@@ -13,6 +13,11 @@ Data visualisation is a useful tool that enables people to grasp and comprehend 
 Skewness of Attribute Distribution
 
 ![Attribute Distribution](/images/attribute_distribution.png)
+<figcaption>
+
+Skewness of Attribute Distribution
+
+</figcaption>
 
 Histogram for each attribute in dataset
 
