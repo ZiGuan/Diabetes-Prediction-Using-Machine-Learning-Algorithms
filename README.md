@@ -13,7 +13,6 @@ Data visualisation is a useful tool that enables people to grasp and comprehend 
 `Skewness of Attribute Distribution`</br>
 
 ![Attribute Distribution](/images/attribute_distribution.png)
-<figcaption>Skewness of Attribute Distribution</figcaption>
 
 `Histogram for each attribute in dataset` </br>
 
