@@ -1,5 +1,7 @@
 # Diabetes-Prediction-Using-Machine-Learning-Algorithms
 
+Diabetes is a prevalent chronic condition that can seriously endanger human health. When blood glucose levels are greater than normal, diabetes can be diagnosed whether is caused from various kinds of biological factors. Machine learning algorithms can be used to predict diabetes by selecting and processing relevant medical data, training, and validating the model, and incorporating it into clinical decision support systems.
+
 ### Model Accuracy
 
 |               | After Feature Selection | After Hyperparameter Tuning  | Final Accuracy (Test Set)
