@@ -53,7 +53,7 @@ From the correlation matrix above, we can observe the correlation coefficient of
 
 StandardScaler is a preprocessing tool for standardising the features in a dataset. This is important because most of the machine learning algorithms assume that the input data is normally distributed and that all characteristics are of equal magnitude. StandardScaler normally will be applied logistics regression and support vector machine, PCA and so on during training process.
 
-StandardScaler data:
+StandardScaler data: </br>
 ![StandardScaler Data](/images/standard_scaler.png)
 
 ### MODEL TRAINING WITH WRAPPER METHOD AND HYPERPARAMETER TUNING
