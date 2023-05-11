@@ -119,7 +119,7 @@
 |Weighted Avg| 0.9663	| 0.9664	| 0.9663	| 2500
 
 ### Model Deployment
-![](/images/deployment_highrisk.png)           ![](/images/deployment_lowrisk.png)
+![](/images/deployment_highrisk.png)  ![](/images/deployment_lowrisk.png)
 
 ## Methodology
 
