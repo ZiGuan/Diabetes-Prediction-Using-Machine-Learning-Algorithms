@@ -4,7 +4,7 @@
 
 ### Overview Procedure from Data Collection to Model Deployment
 
-![flowchart](/images/overview_procedure)
+![flowchart](/images/overview_procedure.png)
 
 ### Data Visualization
 
@@ -12,7 +12,7 @@ Data visualisation is a useful tool that enables people to grasp and comprehend 
 
 Skewness of Attribute Distribution
 
-![Attribute Distribution](/images/attribute_distribution)
+![Attribute Distribution](/images/attribute_distribution.png)
 
 Histogram for each attribute in dataset
 
@@ -20,11 +20,11 @@ Histogram for each attribute in dataset
 
 Bar graph for distribution of diabetic
 
-![](/images/diabetic_distribution)
+![](/images/diabetic_distribution.png)
 
 Box and Whisker plot
 
-![Diabetic Distribution](/images/box_whisker)
+![Diabetic Distribution](/images/box_whisker.png)
 
 ### Data Preprocessing
 
@@ -41,11 +41,11 @@ Pearson correlation is a statistical metric used to quantify the linear relation
 
 Correlation matrix for each feature
 
-![Pearson Correlation Feature](/images/pearson_correlation_feature)
+![Pearson Correlation Feature](/images/pearson_correlation_feature.png)
 
 Correlation matrix between features and outcome
 
-![Pearson Correlation Label](/images/pearson_correlation_outcome)
+![Pearson Correlation Label](/images/pearson_correlation_outcome.png)
 
 From the correlation matrix above, we can observe the correlation coefficient of ‘PatientID’ is smaller. It can be considered to remove it from datasets if we want to save the time consume and save the computation cost during model training.
 
@@ -54,11 +54,16 @@ From the correlation matrix above, we can observe the correlation coefficient of
 StandardScaler is a preprocessing tool for standardising the features in a dataset. This is important because most of the machine learning algorithms assume that the input data is normally distributed and that all characteristics are of equal magnitude. StandardScaler normally will be applied logistics regression and support vector machine, PCA and so on during training process.
 
 StandardScaler data: </br>
+
 ![StandardScaler Data](/images/standard_scaler.png)
 
 ### MODEL TRAINING WITH WRAPPER METHOD AND HYPERPARAMETER TUNING
 
+Training Data Distribution: </br>
+
 ![Data Weightage](/images/data_weightage.png)
+
+
 
 
 
