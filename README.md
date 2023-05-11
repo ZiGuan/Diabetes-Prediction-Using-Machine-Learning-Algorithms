@@ -173,13 +173,19 @@ Hyperparameters tuning in Light-GBM with Random Search:
 |Macro Avg| 0.7588	| 0.7310	| 0.7408	| 2500
 |Weighted Avg| 0.7745	| 0.7804	| 0.7742	| 2500
 
-
-
 #### K-Nearest Neighbors 
 |               | Predicted Negative | Predicted Positive |
 |---------------| -------  | ------ |
 |Actual Negative| 1578 | 84 |
 |Actual Positive| 164 | 674 |
+
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0              | 0.9059	| 0.9495	| 0.9271	| 1662
+|1| 0.8892	| 0.8043	| 0.8446	| 838
+|Accuracy | 0.9008	| 0.9008	| 0.9008	| 0.9008
+|Macro Avg | 0.8975	| 0.8769	| 0.8859	| 2500
+|Weighted Avg| 0.9003	| 0.9008	| 0.8995	| 2500
 
 #### Decision Tree
 |               | Predicted Negative | Predicted Positive |
@@ -187,11 +193,27 @@ Hyperparameters tuning in Light-GBM with Random Search:
 |Actual Negative| 1572 | 90 |
 |Actual Positive| 129 | 709 |
 
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0              | 0.9242	| 0.9458 | 0.9349	| 1662
+|1|  0.8874	|  0.8461	|  0.86626	| 838
+|Accuracy | 0.9124	|  0.9124	|  0.9124	| 0.9124
+|Macro Avg | 0.9058	| 0.8960	| 0.9005	| 2500
+|Weighted Avg| 0.9118	| 0.9124	| 0.91195	| 2500
+
 #### Support Vector Machine
 |               | Predicted Negative | Predicted Positive |
 |---------------| ------ | ------ |
 |Actual Negative| 1546 | 116 |
 |Actual Positive| 165 | 673 |
+
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0              | 0.9036	| 0.9302 |  0.9167	| 1662
+|1| 0.8530	|  0.8031	 |  0.8273	| 838
+|Accuracy | 0.8876	|  0.8876	|  0.8876	|  0.8876
+|Macro Avg | 0.8783	|  0.8667	| 0.8720	| 2500
+|Weighted Avg| 0.8866	| 0.8876 | 0.8867	| 2500
 
 #### Random Forest
 |               | Predicted Negative | Predicted Positive |
@@ -199,11 +221,27 @@ Hyperparameters tuning in Light-GBM with Random Search:
 |Actual Negative| 1547 | 56 |
 |Actual Positive| 107 | 790 |
 
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0              | 0.9353	| 0.9651	| 0.9500	| 1662
+|1| 0.9338	| 0.8807	| 0.9065	| 838
+|Accuracy | 0.9348	| 0.9348	| 0.9348	| 0.9348
+|Macro Avg | 0.9346	| 0.9229	| 0.9282	| 2500
+|Weighted Avg| 0.9348	| 0.9348	| 0.9344	| 2500
+
 #### XGBoost
 |               | Predicted Negative | Predicted Positive |
 |---------------| -------------  | ------ |
 |Actual Negative| 1622 | 40 |
 |Actual Positive| 47 | 791 |
+
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0              | 0.9718	| 0.9759 |	0.9739	| 1662
+|1| 0.9519	| 0.9439	| 0.9479	| 838
+|Accuracy | 0.9652 |	0.9652	| 0.9652	| 0.9652
+|Macro Avg | 0.9619	| 0.9599	| 0.9609	| 2500
+|Weighted Avg| 0.9651	| 0.9652	| 0.9652	| 2500
 
 #### Light-GBM
 |               | Predicted Negative | Predicted Positive |
@@ -211,6 +249,13 @@ Hyperparameters tuning in Light-GBM with Random Search:
 |Actual Negative| 1629 | 33 |
 |Actual Positive| 51 | 787 |
 
-Classification Report
+
+|Performance Measures| Precision | Recall | F1-Score | Support
+|---------------| ------- | ------ | ------- | -------
+|0              | 0.9696	| 0.9801	| 0.9749	| 1662
+|1| 0.9598	| 0.9391	| 0.9493	| 838
+|Accuracy | 0.9664	| 0.9664	| 0.9664	| 0.9664
+|Macro Avg | 0.9647	| 0.9596	| 0.9621	| 2500
+|Weighted Avg| 0.9663	| 0.9664	| 0.9663	| 2500
 
 
