@@ -157,7 +157,39 @@ Hyperparameters tuning in Light-GBM with Random Search:
 
 ## Results
 
-Confusion Matrix of Logistics Regression 
+### Confusion Matrix 
+
+#### Logistics Regression                                               
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1464 | 198 |
+|Actual Positive| 351 | 487 |
+
+#### K-Nearest Neighbors 
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1578 | 84 |
+|Actual Positive| 164 | 674 |
+
+#### Logistics Regression 
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1464 | 198 |
+|Actual Positive| 351 | 487 |
+
+#### Logistics Regression 
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1464 | 198 |
+|Actual Positive| 351 | 487 |
+
+#### Logistics Regression 
+|               | Predicted Negative | Predicted Positive |
+|---------------| -------------  | ------ |
+|Actual Negative| 1464 | 198 |
+|Actual Positive| 351 | 487 |
+
+#### Logistics Regression 
 |               | Predicted Negative | Predicted Positive |
 |---------------| -------------  | ------ |
 |Actual Negative| 1464 | 198 |
