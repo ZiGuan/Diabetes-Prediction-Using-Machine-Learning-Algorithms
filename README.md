@@ -4,7 +4,7 @@
 
 ### Overview Procedure from Data Collection to Model Deployment
 
-![flowchart](/images/overview_procedure.png)
+![flowchart](/images/overview_procedure.png "Overview Procedure from Data Collection to Model Deployment")
 
 ### Data Visualization
 
