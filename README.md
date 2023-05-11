@@ -59,11 +59,23 @@ StandardScaler is a preprocessing tool for standardising the features in a datas
 
 ### MODEL TRAINING WITH WRAPPER METHOD AND HYPERPARAMETER TUNING
 
-`Training Data Distribution` </br>
+`Wrapper method` is one of the feature selection techniques that is a strategy for selecting the most important features to include in a model. This strategy entails evaluating several features combinations and selecting the one that results in the best model performance. 
+
+`Hyperparameter tuning` is the process of determining the best settings for machine learning. Hyperparameters that are not learned from data but can be adjusted or used as defaults before training the model. The model can be optimised by tuning the hyperparameters to achieve the best feasible performance on a given dataset.
+
+`Weightage of Training, Validiation and Test Set` </br>
 
 ![Data Weightage](/images/data_weightage.png)
 
+#### Logistic Regression
 
+Feature Selection with SFS: </br>
+![Logistics Regression SFS](/images/logistic_sfs.png)
 
-
+Hyperparameters tuning in Logistic Regression with Grid Search:
+| Hyperparameter | Values |
+|    max_iter    | 10000  |
+|       C        |  0.059 |
+|    penalty     |   l2   |
+|    solver      | lbfgs  |
 
