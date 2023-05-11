@@ -178,7 +178,7 @@ From the correlation matrix above, we can observe the correlation coefficient of
 
 ![StandardScaler Data](/images/standard_scaler.png)
 
-### Model Traning With Wrapper Method and Hyperparameters Tuning
+### Model Training With Wrapper Method and Hyperparameters Tuning
 
 `Wrapper method` is one of the feature selection techniques that is a strategy for selecting the most important features to include in a model. This strategy entails evaluating several features combinations and selecting the one that results in the best model performance. 
 
