@@ -2,6 +2,21 @@
 
 ## Results
 
+### Model Acuracy
+
+|               | After Feature Selection | After Hyperparameter Tuning |
+|---------------| ----------------------- | -------------------------- |
+| Logistic Regression | 79.60 %  | 79.60 % |
+| K-Nearest Neighbors| 90.80 % | 91.33 % |
+| Decision Tree |  89.60 % | 91.60 %
+| Support Vector Machine | 83.20 % | 85.97 % |
+| Random Forest | 94.13 % | 94.40 % |
+| XGBoost | 95.87 % | 96.40 % |
+| Light-GBM | 94.93 % | 95.60 % |
+
+### Precision-Recall Curve
+![PR Curve](/images/pr_curve.png)
+
 ### Confusion Matrix & Classification Report
 
 #### Logistics Regression                                               
@@ -102,6 +117,8 @@
 |Accuracy | 0.9664	| 0.9664	| 0.9664	| 0.9664
 |Macro Avg | 0.9647	| 0.9596	| 0.9621	| 2500
 |Weighted Avg| 0.9663	| 0.9664	| 0.9663	| 2500
+
+### Model Deployment
 
 ## Methodology
 
